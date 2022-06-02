@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Kumbh Sans, sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    $color-primary,
+    $color-secondary
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
